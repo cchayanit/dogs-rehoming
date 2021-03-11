@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GuideComponent } from './guide/guide.component';
 import { FoundationComponent } from './foundation/foundation.component';
 import { AboutComponent } from './about/about.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
